@@ -3,6 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+public class Data {
+
+    public int dataValue;
+}
 public class Call : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -19,7 +24,7 @@ public class Call : MonoBehaviour
 
 
     public void CallEvent() {
-        EventManager.TriggerEvent("CallEvent", new EventData());
+        EventManager<Data>.TriggerEvent("CallEvent", new Data() { dataValue = 10});
     }
 
 }
