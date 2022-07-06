@@ -1,7 +1,4 @@
-using ARWayKit.SDK;
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using HD.SDK;
 using UnityEngine;
 
 public class Reciver : MonoBehaviour
@@ -19,6 +16,6 @@ public class Reciver : MonoBehaviour
 
     private void EventReciver(Data obj)
     {
-        Debug.Log("<color=green> Event Trigger *******"+obj.dataValue);
+        Debug.Log("<color=green> Event Trigger ******* </color>"+obj.dataValue);
     }
 }

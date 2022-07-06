@@ -1,6 +1,4 @@
-using ARWayKit.SDK;
-using System.Collections;
-using System.Collections.Generic;
+using HD.SDK;
 using UnityEngine;
 
 
